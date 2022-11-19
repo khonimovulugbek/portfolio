@@ -41,10 +41,30 @@
     margin-bottom: 0.8rem;
 }
 
-.service_list-icon{
+.service_list-icon {
     color: var(--color-primary);
     margin-top: 2px;
 }
+
 .service_list p {
     font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .services_container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .service {
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .services_container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
 }
