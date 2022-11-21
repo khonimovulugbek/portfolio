@@ -1,9 +1,5 @@
 import React from 'react';
 import './testimonials.css'
-import AVTR1 from '../../assets/avatar1.jpg'
-import AVTR2 from '../../assets/avatar2.jpg'
-import AVTR3 from '../../assets/avatar3.jpg'
-import AVTR4 from '../../assets/avatar4.jpg'
 
 // import Swiper core and required modules
 import {Pagination} from 'swiper';
@@ -13,43 +9,36 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
+import {AiOutlineCloudDownload} from "react-icons/ai";
 
 const pro = [
     {
         id: 1,
-        img: AVTR1,
-        name: 'Ernest Achiever',
-        review: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet dolor esse impedit neque
-                 praesentium sed sequi sunt ullam, ut?`
+        img: 'https://drive.google.com/uc?id=14Y0HDcIZEm8ygk6b7rePlQfD_xgztATN&export=download',
+        url: 'https://codewithmosh.com/courses/606251/certificate?pdf=true'
     },
     {
         id: 2,
-        img: AVTR2,
-        name: 'Ernest Achiever',
-        review: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet dolor esse impedit neque
-                 praesentium sed sequi sunt ullam, ut?`
+        img: 'https://drive.google.com/uc?id=1-9vAOBZtQyg2h_lCvUpuEP0Y7TBy0tkl&export=download',
+        url: 'https://amigoscode.com/courses/267273/certificate?pdf=true'
     },
     {
         id: 3,
-        img: AVTR3,
-        name: 'Ernest Achiever',
-        review: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet dolor esse impedit neque
-                 praesentium sed sequi sunt ullam, ut?`
+        img: 'https://drive.google.com/uc?id=1iBJLsbV4Q33DNWlE4rizNuOweg5qrtR-&export=download',
+        url: 'https://codewithmosh.com/courses/1260591/certificate?pdf=true'
     },
     {
         id: 4,
-        img: AVTR4,
-        name: 'Ernest Achiever',
-        review: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet dolor esse impedit neque
-                 praesentium sed sequi sunt ullam, ut?`
+        img: 'https://drive.google.com/uc?id=1cbjIbqIYziehjHFLcScee2GKOg8v8fNf&export=download',
+        url: 'https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/4ebdab36-66ec-492a-9831-b71e7124888d.pdf'
     },
 ]
 
 const Testimonials = () => {
     return (
         <section id='testimonials'>
-            <h5>Review from clients</h5>
-            <h2>Testimonials</h2>
+            <h5>Academic achievement</h5>
+            <h2>Certificates</h2>
             <Swiper className="container testimonials_container"
                     modules={[Pagination]}
                     spaceBetween={40}
@@ -57,16 +46,15 @@ const Testimonials = () => {
                     pagination={{clickable: true}}
             >
                 {
-                    pro.map(({id, img, name, review}) => {
+                    pro.map(({id, img,url}) => {
                         return (
                             <SwiperSlide key={id} className="testimonial">
-                                <div className="client_avatar">
-                                    <img src={img} alt="Avatar One"/>
-                                </div>
-                                <h5 className='client_name'>{name}</h5>
-                                <small className='client_review'>
-                                    {review}
-                                </small>
+
+                                    <div className="testimonial_me-image">
+                                        <img src={img} alt=""/>
+                                    </div>
+                                <a href={url} target='_blank'><AiOutlineCloudDownload/></a>
+
                             </SwiperSlide>
                         )
                     })

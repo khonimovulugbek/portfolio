@@ -1,6 +1,5 @@
 import React from 'react';
 import './portfolio.css'
-import SV from '../../assets/portfolio6.jpg'
 
 const data = [
     {
@@ -9,7 +8,7 @@ const data = [
         image: 'https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/camel-train-in-danakil-desert-arterra-picture-library.jpg',
         title: 'Caravan',
         github: 'https://github.com/ulugbek9909/caravanback',
-        demo: null
+        demo: 'https://play.google.com/store/apps/details?id=com.caravan.caravan'
     },
     {
         id: 2,
@@ -17,7 +16,7 @@ const data = [
         image: 'https://routenote.com/blog/wp-content/uploads/2022/08/profile-124823467-12584882851192598979.jpeg',
         title: 'YouTube',
         github: 'https://github.com',
-        demo: 'https://'
+        demo: null
     },
     {
         id: 3,
@@ -25,31 +24,31 @@ const data = [
         image: 'https://storage.kun.uz/source/thumbnails/_medium/4/o0LdxtGQj8e0r21Y1bZ9_DQ3Zui8-0aa_medium.jpg',
         title: 'KunUz',
         github: 'https://github.com',
-        demo: 'https://'
+        demo: null
     },
     {
         id: 4,
         short: 'Evos',
-        image: 'https://www.afisha.uz/uploads/media/2016/07/0039781.jpeg',
+        image: 'https://drive.google.com/uc?id=1yC95gTTTX8Ry907VM2CItmffJoJYqMV7&export=download',
         title: 'Evos',
-        github: 'https://github.com',
+        github: 'https://github.com/ulugbek9909/Evos',
         demo: 'https://t.me/evosfakebot'
     },
     {
         id: 5,
-        short: 'SVG',
-        image: 'https://drive.google.com/uc?id=1QQHR5qQs0pAXJntAQez8q0f2P7OCQGoy&export=download',
+        short: 'Xarid.mf.uz (private)',
+        image: 'https://drive.google.com/uc?id=1ma81_3SyW6rDbJ8UJ8PdtEifO6W2p3vj&export=download',
         title: 'c',
-        github: 'https://github.com',
-        demo: 'https://'
+        github: null,
+        demo: 'https://xarid.mf.uz'
     },
     {
         id: 6,
-        short: 'Caravan',
-        image: SV,
-        title: 'c',
-        github: 'https://github.com',
-        demo: 'https://'
+        short: 'Ochiq muloqot klubi',
+        image: 'https://drive.google.com/uc?id=1txqh7RXqqoWmKLa1mopymgZrHzcu-E_5&export=download',
+        title: 'Ochiq muloqot',
+        github: 'https://github.com/ulugbek9909/Ochiq_muloqot_bot',
+        demo: 'https://t.me/mv_ochiq_muloqot_bot'
     },
 ]
 
@@ -60,7 +59,7 @@ const Portfolio = () => {
             <h2>Portfolio</h2>
             <div className="container portfolio_container">
                 {
-                    data.map(({id, image, title, github, demo,short}) => {
+                    data.map(({id, image, title, github, demo, short}) => {
                         return (
                             <article key={id} className="portfolio_item">
                                 <div className="portfolio_item-image">
@@ -68,9 +67,11 @@ const Portfolio = () => {
                                 </div>
                                 <h3>{short}</h3>
                                 <div className="portfolio_item-cta">
-                                    <a href={github} className='btn' target='_blank'>Github</a>
+                                    <a href={github} className={github == null ? 'portfolio_btn-hidden' : 'btn'}
+                                       target='_blank'>Github</a>
                                     <a href={demo} target='_blank'
-                                       className={demo == null ? 'portfolio_btn-hidden' : 'btn btn-primary'}>Live Demo</a>
+                                       className={demo == null ? 'portfolio_btn-hidden' : 'btn btn-primary'}>Live
+                                        Demo</a>
                                 </div>
                             </article>
                         )

@@ -1,9 +1,8 @@
 import React from 'react';
 import './about.css'
-import ME from '../../assets/me-about.jpg'
 import {FaAward} from "react-icons/fa";
-import {FiUsers} from "react-icons/fi";
 import {VscFolderLibrary} from "react-icons/vsc";
+import {MdOutlineWork} from "react-icons/md";
 
 const About = () => {
     return (
@@ -24,9 +23,9 @@ const About = () => {
                             <small>5+ Month Working</small>
                         </article>
                         <article className="about_card">
-                            <FiUsers className='about_icon'/>
-                            <h5>Clients</h5>
-                            <small>200+ Worldwide</small>
+                            <MdOutlineWork className='about_icon'/>
+                            <h5>Work</h5>
+                            <small>Ministry of Finance</small>
                         </article>
                         <article className="about_card">
                             <VscFolderLibrary className='about_icon'/>
@@ -35,9 +34,9 @@ const About = () => {
                         </article>
 
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium earum illum impedit
-                        inventore laudantium nihil sapiente tempore totam? Dolorum eum eveniet hic illo inventore
-                        iusto laudantium minus quisquam tempore vitae!</p>
+                    <p>An experienced Java Developer capable of creating web applications for various platforms in order to
+                        make your business run more smoothly. Capable of web design, app creation, and the development of
+                        tools for testing functionality, scheduling, analyzing logs, resolving information issues, and more.</p>
                     <a href={"#contact"} className='btn btn-primary'>Let's Talk</a>
                 </div>
             </div>

@@ -1,6 +1,21 @@
 import React from 'react';
 import './experience.css'
-import {BsPatchCheckFill} from "react-icons/bs";
+import {BsFillBootstrapFill} from "react-icons/bs";
+import {
+    SiApachekafka,
+    SiCss3,
+    SiDocker,
+    SiHtml5,
+    SiPostgresql,
+    SiPostman,
+    SiRabbitmq,
+    SiReact,
+    SiSpring,
+    SiThymeleaf
+} from "react-icons/si";
+import {MdMiscellaneousServices} from "react-icons/md";
+import {FaJava} from "react-icons/fa";
+import {TbBrandJavascript} from "react-icons/tb";
 
 const Experience = () => {
     return (
@@ -12,42 +27,42 @@ const Experience = () => {
                     <h3>Frontend Development</h3>
                     <div className="experience_content">
                         <article className="experience_details">
-                            <BsPatchCheckFill className="experience_details-icon"/>
+                            <SiHtml5 className="experience_details-icon"/>
                             <div>
                                 <h4>HTML</h4>
                                 <small>Intermediate</small>
                             </div>
                         </article>
                         <article className="experience_details">
-                            <BsPatchCheckFill className="experience_details-icon"/>
+                            <SiCss3 className="experience_details-icon"/>
                             <div>
                                 <h4>CSS</h4>
                                 <small>Intermediate</small>
                             </div>
                         </article>
                         <article className="experience_details">
-                            <BsPatchCheckFill className="experience_details-icon"/>
+                            <BsFillBootstrapFill className="experience_details-icon"/>
                             <div>
                                 <h4>Bootstrap</h4>
                                 <small>Intermediate</small>
                             </div>
                         </article>
                         <article className="experience_details">
-                            <BsPatchCheckFill className="experience_details-icon"/>
+                            <TbBrandJavascript className="experience_details-icon"/>
                             <div>
                                 <h4>Java Script</h4>
                                 <small>Pre Intermediate</small>
                             </div>
                         </article>
                         <article className="experience_details">
-                            <BsPatchCheckFill className="experience_details-icon"/>
+                            <SiThymeleaf className="experience_details-icon"/>
                             <div>
                                 <h4>Thymeleaf</h4>
                                 <small>Intermediate</small>
                             </div>
                         </article>
                         <article className="experience_details">
-                            <BsPatchCheckFill className="experience_details-icon"/>
+                            <SiReact className="experience_details-icon"/>
                             <div>
                                 <h4>React</h4>
                                 <small>Pre Intermediate</small>
@@ -59,54 +74,62 @@ const Experience = () => {
                     <h3>Backend Development</h3>
                     <div className="experience_content">
                         <article className="experience_details">
-                            <BsPatchCheckFill className="experience_details-icon"/>
-                            <div>
-                                <h4>OOP</h4>
-                                <small>Advance</small>
-                            </div>
-                        </article>
-                        <article className="experience_details">
-                            <BsPatchCheckFill className="experience_details-icon"/>
-                            <div>
-                                <h4>Spring framework</h4>
-                                <small>Advance</small>
-                            </div>
-                        </article>
-                        <article className="experience_details">
-                            <BsPatchCheckFill className="experience_details-icon"/>
+                            <FaJava className="experience_details-icon"/>
                             <div>
                                 <h4>Java</h4>
                                 <small>Advance</small>
                             </div>
                         </article>
                         <article className="experience_details">
-                            <BsPatchCheckFill className="experience_details-icon"/>
+                            <SiSpring className="experience_details-icon"/>
+                            <div>
+                                <h4>Spring framework</h4>
+                                <small>Advance</small>
+                            </div>
+                        </article>
+                        <article className="experience_details">
+                            <SiRabbitmq className="experience_details-icon"/>
+                            <div>
+                                <h4>RabbitMQ</h4>
+                                <small>Advance</small>
+                            </div>
+                        </article>
+                        <article className="experience_details">
+                            <SiPostgresql className="experience_details-icon"/>
                             <div>
                                 <h4>Postgresql</h4>
                                 <small>Advance</small>
                             </div>
                         </article>
                         <article className="experience_details">
-                            <BsPatchCheckFill className="experience_details-icon"/>
+                            <SiPostman className="experience_details-icon"/>
                             <div>
-                                <h4>Data structure & Algorithms</h4>
+                                <h4>Postman</h4>
                                 <small>Intermediate</small>
                             </div>
                         </article>
                         <article className="experience_details">
-                            <BsPatchCheckFill className="experience_details-icon"/>
+                            <MdMiscellaneousServices className="experience_details-icon"/>
                             <div>
                                 <h4>Microservices</h4>
                                 <small>Pre Intermediate</small>
                             </div>
                         </article>
                         <article className="experience_details">
-                            <BsPatchCheckFill className="experience_details-icon"/>
+                            <SiDocker className="experience_details-icon"/>
                             <div>
-                                <h4>Rabbit MQ</h4>
+                                <h4>Docker</h4>
                                 <small>Pre Intermediate</small>
                             </div>
                         </article>
+                        <article className="experience_details">
+                            <SiApachekafka className="experience_details-icon"/>
+                            <div>
+                                <h4>Apache Kafka</h4>
+                                <small>Elementary</small>
+                            </div>
+                        </article>
+
                     </div>
                 </div>
             </div>

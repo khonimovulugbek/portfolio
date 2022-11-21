@@ -27,6 +27,22 @@
     margin: 0.8rem auto 0;
 }
 
+.testimonial_me {
+    width: 100%;
+    aspect-ratio: 1.42/1;
+    border-radius: 2rem;
+    background: var(--color-bg-variant);
+    display: grid;
+    place-items: center;
+}
+
+.testimonial_me-image {
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+
 @media screen and (max-width: 1024px) {
    .container.testimonials_container {
        width: 60%;

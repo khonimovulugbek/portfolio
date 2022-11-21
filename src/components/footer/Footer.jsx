@@ -19,9 +19,9 @@ const Footer = () => {
                 <li><a href={"#contact"}>Contact</a></li>
             </ul>
             <div className="footer_socials">
-                <a href="https://"><FaFacebook/></a>
-                <a href="https://"><FiInstagram/></a>
-                <a href="https://"><BsLinkedin/></a>
+                <a href="https://www.facebook.com/ulugbek.khanimov" target='_blank'><FaFacebook/></a>
+                <a href="https://www.instagram.com/senior_khan_u/" target='_blank'><FiInstagram/></a>
+                <a href="https://www.linkedin.com/in/khonimov-ulugbek/"><BsLinkedin/></a>
             </div>
             <div className="footer_copyright">
                 <small>&copy; KHAN Portfolio. All rights reserved.</small>
