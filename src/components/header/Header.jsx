@@ -18,7 +18,7 @@ const Header = () => {
                     <img src="https://drive.google.com/uc?id=1fUb3JFpU3ugzOBs7_UTgHDSettXD_PCO&export=download" alt="me"/>
                 </div>
 
-                <a href="#contact" className='scroll_down'>Scroll Down</a>
+                <a href={"#contact"} className='scroll_down'>Scroll Down</a>
             </div>
         </header>
     );

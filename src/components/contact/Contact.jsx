@@ -4,6 +4,7 @@ import {MdOutlineEmail} from "react-icons/md";
 import {RiMessageLine} from "react-icons/ri";
 import {BsTelegram} from "react-icons/bs";
 import emailjs from 'emailjs-com'
+import {BiPhone} from "react-icons/bi";
 
 const Contact = () => {
     const form = useRef();
@@ -21,6 +22,11 @@ const Contact = () => {
             <h2>Contact Me</h2>
             <div className="container contact_container">
                 <div className="contact_options">
+                    <article className="contact_option">
+                        <BiPhone className='contact_option-icon'/>
+                        <h4>Phone Number</h4>
+                        <h5>+998 88 897 77 07</h5>
+                    </article>
                     <article className="contact_option">
                         <MdOutlineEmail className='contact_option-icon'/>
                         <h4>Email</h4>
