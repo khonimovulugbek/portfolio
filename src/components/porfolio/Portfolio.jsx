@@ -23,7 +23,7 @@ const data = [
         short: 'Kun.uz',
         image: 'https://storage.kun.uz/source/thumbnails/_medium/4/o0LdxtGQj8e0r21Y1bZ9_DQ3Zui8-0aa_medium.jpg',
         title: 'KunUz',
-        github: 'https://github.com',
+        github: 'https://github.com/ulugbek9909/kun_uz',
         demo: null
     },
     {
