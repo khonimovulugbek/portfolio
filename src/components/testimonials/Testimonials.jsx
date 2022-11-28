@@ -2,14 +2,10 @@ import React from 'react';
 import './testimonials.css'
 
 // import Swiper core and required modules
-import {Pagination} from 'swiper';
-
-import {Swiper, SwiperSlide} from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-import {AiOutlineCloudDownload} from "react-icons/ai";
 
 const pro = [
     {
