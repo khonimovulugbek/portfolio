@@ -6,7 +6,7 @@ import {
     SiApachekafka,
     SiCss3,
     SiDocker,
-    SiHtml5,
+    SiHtml5, SiMongodb,
     SiPostgresql,
     SiPostman,
     SiRabbitmq,
@@ -142,6 +142,13 @@ const Experience = () => {
                             <DiRedis className="experience_details-icon"/>
                             <div>
                                 <h4>Redis</h4>
+                                <small>Intermediate</small>
+                            </div>
+                        </article>
+                        <article className="experience_details">
+                            <SiMongodb className="experience_details-icon"/>
+                            <div>
+                                <h4>MongoDB</h4>
                                 <small>Intermediate</small>
                             </div>
                         </article>
