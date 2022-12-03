@@ -17,6 +17,7 @@ import {
 import {MdMiscellaneousServices} from "react-icons/md";
 import {FaJava} from "react-icons/fa";
 import {TbBrandJavascript} from "react-icons/tb";
+import {DiRedis} from "react-icons/di";
 
 const Experience = () => {
     return (
@@ -134,6 +135,13 @@ const Experience = () => {
                             <SiApachecassandra className="experience_details-icon"/>
                             <div>
                                 <h4>Apache Cassandra</h4>
+                                <small>Intermediate</small>
+                            </div>
+                        </article>
+                        <article className="experience_details">
+                            <DiRedis className="experience_details-icon"/>
+                            <div>
+                                <h4>Redis</h4>
                                 <small>Intermediate</small>
                             </div>
                         </article>
