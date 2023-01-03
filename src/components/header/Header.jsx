@@ -11,13 +11,6 @@ const Header = () => {
                 <h1>Khonimov Ulugbek</h1>
                 <h5 className="text-light">Java Backend Developer</h5>
                 <CTA/>
-                <HeaderSocial/>
-
-                <div className="me">
-                    <img src="https://drive.google.com/uc?id=1fUb3JFpU3ugzOBs7_UTgHDSettXD_PCO&export=download"/>
-                </div>
-
-                <a href={"#contact"} className='scroll_down'>Scroll Down</a>
             </div>
         </header>
     );
