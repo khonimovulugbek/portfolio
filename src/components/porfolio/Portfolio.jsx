@@ -2,14 +2,14 @@ import React from 'react';
 import './portfolio.css'
 
 const data = [
-    {
+/*    {
         id: 1,
         short: 'Caravan',
         image: 'https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/camel-train-in-danakil-desert-arterra-picture-library.jpg',
         title: 'Caravan',
         github: 'https://github.com/ulugbek9909/caravanback',
         demo: 'https://play.google.com/store/apps/details?id=com.caravan.caravan'
-    },
+    },*/
     {
         id: 2,
         short: 'YouTube',
