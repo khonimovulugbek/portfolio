@@ -1,8 +1,9 @@
 import React from 'react';
 import './portfolio.css'
-import pdp from "../../assets/certificate/pdp.webp";
 import rbk from "../../assets/project/rbk-octo.jpg";
 import orien from "../../assets/project/orien.jpg";
+import xarid from "../../assets/project/xarid.webp";
+import muloqot from "../../assets/project/muloqot.webp";
 
 
 
@@ -40,14 +41,14 @@ const data = [
     {
         id: 5,
         short: 'Davlat xaridlari',
-        image: 'https://drive.google.com/uc?id=1ma81_3SyW6rDbJ8UJ8PdtEifO6W2p3vj&export=download',
+        image: xarid,
         title: 'Davlat xaridlari',
         github: null,
     },
     {
         id: 6,
         short: 'Ochiq muloqot klubi',
-        image: 'https://drive.google.com/uc?id=1txqh7RXqqoWmKLa1mopymgZrHzcu-E_5&export=download',
+        image: muloqot,
         title: 'Ochiq muloqot',
         github: 'https://github.com/khonimovulugbek/Ochiq_muloqot_bot',
         demo: 'https://t.me/mv_ochiq_muloqot_bot'
