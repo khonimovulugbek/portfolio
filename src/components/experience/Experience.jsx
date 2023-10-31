@@ -2,11 +2,11 @@ import React from 'react';
 import './experience.css'
 import {BsFillBootstrapFill} from "react-icons/bs";
 import {
-    SiApachecassandra,
     SiApachekafka,
     SiCss3,
     SiDocker,
-    SiHtml5, SiMongodb,
+    SiHtml5,
+    SiMongodb,
     SiPostgresql,
     SiPostman,
     SiRabbitmq,
@@ -129,13 +129,6 @@ const Experience = () => {
                             <div>
                                 <h4>Apache Kafka</h4>
                                 <small>Elementary</small>
-                            </div>
-                        </article>
-                        <article className="experience_details">
-                            <SiApachecassandra className="experience_details-icon"/>
-                            <div>
-                                <h4>Apache Cassandra</h4>
-                                <small>Intermediate</small>
                             </div>
                         </article>
                         <article className="experience_details">

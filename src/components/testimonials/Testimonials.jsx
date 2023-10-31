@@ -6,36 +6,43 @@ import './testimonials.css'
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
+import pdp from "../../assets/certificate/pdp.webp";
+import mohirdev from "../../assets/certificate/mohirdev.webp";
+import html from "../../assets/certificate/html.png";
+import js from "../../assets/certificate/js.png";
+import docker from "../../assets/certificate/docker.png";
+import java from "../../assets/certificate/java.png";
+
 
 const pro = [
     {
         id: 1,
-        img: 'https://drive.google.com/uc?id=1FEW7HFVJ7Hc0RtZOc7Ivaklj5YP4ZQaP&export=download',
+        img: pdp,
         url: 'https://codewithmosh.com/courses/606251/certificate?pdf=true'
     },
     {
         id: 2,
-        img: 'https://drive.google.com/uc?id=1-9vAOBZtQyg2h_lCvUpuEP0Y7TBy0tkl&export=download',
+        img: html,
         url: 'https://amigoscode.com/courses/267273/certificate?pdf=true'
     },
     {
         id: 3,
-        img: 'https://drive.google.com/uc?id=1iBJLsbV4Q33DNWlE4rizNuOweg5qrtR-&export=download',
+        img: js,
         url: 'https://codewithmosh.com/courses/1260591/certificate?pdf=true'
     },
     {
         id: 4,
-        img: 'https://drive.google.com/uc?id=1cbjIbqIYziehjHFLcScee2GKOg8v8fNf&export=download',
+        img: docker,
         url: 'https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/4ebdab36-66ec-492a-9831-b71e7124888d.pdf'
     },
     {
         id: 5,
-        img: 'https://udemy-certificate.s3.amazonaws.com/image/UC-7c7b8958-ca6b-4667-9577-cae63d58d5aa.jpg',
+        img: mohirdev,
         url: 'https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/4ebdab36-66ec-492a-9831-b71e7124888d.pdf'
     },
     {
         id: 6,
-        img: 'https://drive.google.com/uc?id=14Y0HDcIZEm8ygk6b7rePlQfD_xgztATN&export=download',
+        img: java,
         url: 'https://codewithmosh.com/courses/606251/certificate?pdf=true'
     },
 
